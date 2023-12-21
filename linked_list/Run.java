@@ -21,6 +21,7 @@ public class Run {
 		System.out.println(linearList.outputList());
 		linearList.add(4, "e1");
 		System.out.println(linearList.outputList());
-		
+		System.out.println(linearList.isFound("e1"));
+		System.out.println(linearList.isFound("e2"));
 	}
 }
